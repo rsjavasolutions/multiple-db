@@ -1,0 +1,6 @@
+docker run -p 5432:5432 --name container-postgresdb -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -dt postgres
+
+docker start container-postgresdb
+
+http://localhost:8080/swagger-ui.html#/
+
